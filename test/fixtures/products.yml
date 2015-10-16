@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product_name: MyString
+  description: MyString
+  category_id: 1
+  subcategory_id: 1
+  initial_price: 1
+  selling_price: 1
+  opening_date: 2015-10-16 16:54:26
+  closing_date: 2015-10-16 16:54:26
+
+two:
+  product_name: MyString
+  description: MyString
+  category_id: 1
+  subcategory_id: 1
+  initial_price: 1
+  selling_price: 1
+  opening_date: 2015-10-16 16:54:26
+  closing_date: 2015-10-16 16:54:26

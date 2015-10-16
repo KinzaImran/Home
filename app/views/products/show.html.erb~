@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Product name:</strong>
+  <%= @product.product_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @product.category.category_name %>
+</p>
+
+<p>
+  <strong>Subcategory:</strong>
+  <%= @product.subcategory.subcategory_name %>
+</p>
+
+<p>
+  <strong>Initial price:</strong>
+  <%= @product.initial_price %>
+</p>
+
+<p>
+  <strong>Selling price:</strong>
+  <%= @product.selling_price %>
+</p>
+
+<p>
+  <strong>Opening date:</strong>
+  <%= @product.opening_date %>
+</p>
+
+<p>
+  <strong>Closing date:</strong>
+  <%= @product.closing_date %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
+
+<%= link_to 'Destroy', products, method: :delete, data: { confirm: 'Are you sure?' } %>
